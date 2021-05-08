@@ -56,7 +56,19 @@
         </div>
         <div id="right-container">
             <div id="right-container-inside">
-                hello
+                <img id="right-illust" src="assets/Calendar.png" alt="">
+                <h1>
+                    Create your todo
+                </h1>
+                <form action="" id="todo-form" autocomplete="off">
+                    <label for="title">Title</label>
+                    <input type="text" name="title" id="input-title" placeholder="Title">
+                    <label for="desc">Description</label>
+                    <textarea name="desc" id="input-desc" cols="30" rows="10" placeholder="Description"></textarea>
+                    <label for="deadline">Deadline</label>
+                    <input type="date" name="deadline" id="input-deadline" placeholder="Deadline">
+                </form>
+                <button type="submit" form="todo-form" value="Submit" id="right-submit-button">Add to my todo list</button>
             </div>
         </div>
     </div>

@@ -58,10 +58,9 @@ body {
     left: 0;
     width: fit-content;
     height: fit-content;
-    /* padding: 24px; */
     border-radius: 32px;
     background-color: whitesmoke;
-    box-shadow: 10px 30px 30px rgba(117, 125, 232, 0.75);
+    box-shadow: 15px 35px 35px rgba(117, 125, 232, 0.65);
 }
 
 #right-container-inside {
@@ -69,11 +68,11 @@ body {
     bottom: 0;
     left: 0;
     width: 83%;
-    height: 80%;
+    height: fit-content;
     padding: 24px;
     border-radius: 32px;
     background-color: #3f51b5;
-
+    box-shadow: 15px 35px 35px rgba(117, 125, 232, 0.65);
 }
 
 #left-container-inside h1 {
@@ -122,6 +121,90 @@ body {
     filter: brightness(0) invert(1);
     margin-right: 16px;
 }
+
+#right-illust {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    transform: translate(72px, -85px);
+}
+
+#right-container-inside h1 {
+    color: white;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+#todo-form {
+    width: 100%;
+    margin-bottom: 24px;
+
+}
+
+#todo-form label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+#todo-form input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 89%;
+    padding: 10px 12px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    outline: none;
+    transition: background-color 0.25s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+#todo-form input:hover {
+    background-color: gainsboro;
+}
+
+#todo-form input:focus {
+    box-shadow: 5px 5px 10px #002984;
+}
+
+#todo-form textarea {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 89%;
+    height: 15vh;
+    padding: 10px 12px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    resize: none;
+    overflow: hidden;
+    outline: none;
+    transition: background-color 0.25s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+#todo-form textarea:hover {
+    background-color: gainsboro;
+}
+
+#todo-form textarea:focus {
+    box-shadow: 5px 5px 10px #002984;
+}
+
+#right-submit-button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #3fe265;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    padding-block: 16px;
+    border: none;
+    border-radius: 16px;
+}
+
+
+
+
 
 
 
