@@ -157,15 +157,12 @@ body {
     margin-top: 4px;
     margin-bottom: 12px;
     outline: none;
+    background-color: whitesmoke;
     transition: background-color 0.25s ease-in-out, box-shadow 0.5s ease-in-out;
 }
 
-#todo-form input:hover {
-    background-color: gainsboro;
-}
-
-#todo-form input:focus {
-    box-shadow: 5px 5px 10px #002984;
+#todo-form input[type=date] {
+    cursor: pointer;
 }
 
 #todo-form textarea {
@@ -183,12 +180,13 @@ body {
     transition: background-color 0.25s ease-in-out, box-shadow 0.5s ease-in-out;
 }
 
-#todo-form textarea:hover {
+#todo-form input:hover, #todo-form textarea:hover {
     background-color: gainsboro;
 }
 
-#todo-form textarea:focus {
-    box-shadow: 5px 5px 10px #002984;
+#todo-form input:focus, #todo-form textarea:focus {
+    box-shadow: 0 14px 12px -8px #002984;
+    background-color: whitesmoke;
 }
 
 #right-submit-button {
@@ -200,9 +198,18 @@ body {
     padding-block: 16px;
     border: none;
     border-radius: 16px;
+    cursor: pointer;
+    transition: box-shadow 0.5s ease-in-out;
 }
 
+#right-container button:hover {
+    box-shadow: 0 14px 12px -8px #002984;
+}
 
+#right-container button:active {
+    background-color: #00af36;
+    box-shadow: none;
+}
 
 
 
