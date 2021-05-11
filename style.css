@@ -214,6 +214,7 @@ body {
 }
 
 #todo-tab {
+    position: relative;
     width: 89.5%;
     height: fit-content;
     padding: 24px;
@@ -232,16 +233,20 @@ body {
     border-radius: 20px;
     text-align: center;
     cursor: pointer;
+    /* background-color: #3fe265; */
     transition: background-color 0.25s ease-in-out, color 0.5s ease-in-out;
 }
 
-.todo-tab-card:hover {
-    background-color: gainsboro;
-}
-
-.todo-tab-card:active {
+#todo-tab-button {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    width: 20.5%;
+    height: 19px;
+    padding: 16px;
+    border-radius: 20px;
     background-color: #3f51b5;
-    color: white;
+    z-index: -1;
 }
 
 #mid-container-todo-list {
@@ -258,7 +263,7 @@ body {
 }
 
 #mid-container-no-list {
-    visibility: visible;
+    display: unset;
     position: absolute;
     top: 50%;
     left: 50%;
