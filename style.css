@@ -61,7 +61,7 @@ body {
     height: fit-content;
     border-radius: 32px;
     background-color: whitesmoke;
-    box-shadow: 15px 35px 35px rgba(117, 125, 232, 0.65);
+    box-shadow: 10px 15px 25px rgba(117, 125, 232, 0.65);
 }
 
 #right-container-inside {
@@ -73,7 +73,7 @@ body {
     padding: 24px;
     border-radius: 32px;
     background-color: #3f51b5;
-    box-shadow: 15px 35px 35px rgba(103, 107, 167, 0.65);
+    box-shadow: 10px 15px 25px rgba(117, 125, 232, 0.65);
 }
 
 #left-container-inside h1 {
@@ -254,5 +254,24 @@ body {
     padding: 24px;
     border-radius: 32px;
     z-index: -1;
+    box-shadow: 10px 15px 25px rgba(117, 125, 232, 0.65);
 }
+
+#mid-container-no-list {
+    visibility: visible;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#mid-container-no-list img {
+    width: 150px;
+}
+
+
+
+
+
 
