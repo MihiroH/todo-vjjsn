@@ -97,8 +97,8 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 150px;
-    transform: translate(42px, 80px);
+    width: 11vw;
+    transform: translate(26%, 52%);
 }
 
 .todo-count {
@@ -127,8 +127,8 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 150px;
-    transform: translate(72px, -85px);
+    width: 11vw;
+    transform: translate(47%, -55%);
 }
 
 #right-container-inside h1 {
@@ -199,9 +199,10 @@ body {
     text-align: center;
     padding-block: 16px;
     border: none;
-    border-radius: 16px;
+    border-radius: 20px;
     cursor: pointer;
     transition: box-shadow 0.5s ease-in-out;
+    outline: none;
 }
 
 #right-submit-button:hover {
@@ -233,8 +234,7 @@ body {
     border-radius: 20px;
     text-align: center;
     cursor: pointer;
-    /* background-color: #3fe265; */
-    transition: background-color 0.25s ease-in-out, color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
 }
 
 #todo-tab-button {
@@ -272,10 +272,12 @@ body {
 }
 
 #mid-container-no-list img {
-    width: 150px;
+    width: 11vw;
 }
 
-
+.is-active {
+    color: white;
+}
 
 
 
